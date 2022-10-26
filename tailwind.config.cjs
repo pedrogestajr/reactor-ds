@@ -6,6 +6,8 @@ module.exports = {
   ],
   theme: {
     colors: {
+      transparent: 'transparent',
+      
       'cyan': {
         200: '#a5f3fc',
         400: '#61dafb',
