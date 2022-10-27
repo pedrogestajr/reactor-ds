@@ -19,7 +19,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile --legacy-peer-deps
+        run: yarn install --immutable --immutable-cache --check-cache --legacy-peer-deps
 
       - name: Build Storybook
         run: yarn build-storybook
