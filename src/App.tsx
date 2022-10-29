@@ -22,7 +22,7 @@ export function App() {
         </Text>
       </header>
 
-      <form action="" className='flex flex-col gap-6 items-stretch w-full max-w-[400px] mt-8'>
+      <form action="" className='flex flex-col gap-5 items-stretch w-full max-w-[400px] mt-8'>
         <label htmlFor="email" className='flex flex-col gap-3'>
           <Text className='font-medium'>Email</Text>
           <TextInput.Root>
@@ -49,10 +49,10 @@ export function App() {
 
       <footer className='flex flex-col items-center gap-4 mt-8'>
         <Text asChild size='sm'>
-        <a href="#" className='underline hover:text-neutral-50'>Forgot your password?</a>
+        <a href="#" className='underline hover:text-cyan-200'>Forgot your password?</a>
         </Text>
         <Text asChild size='sm'>
-          <a href="#" className='underline hover:text-neutral-50'>Don’t have an account? Create one now.</a>
+          <a href="#" className='underline hover:text-cyan-200'>Don’t have an account? Create one now.</a>
         </Text>
       </footer>
     </div>
