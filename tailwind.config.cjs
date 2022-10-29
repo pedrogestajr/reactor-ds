@@ -14,12 +14,12 @@ module.exports = {
       },
       'neutral': {
         50: '#f5f5f5',
+        300: '#d4d4d4',
         800: '#262626',
         900: '#171717',
       }
     },
     fontSize: { // TODO: if necessary, set line-height
-      'xs': 12,
       'sm': 14,
       'md': 16,
       'lg': 18,
